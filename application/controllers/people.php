@@ -22,6 +22,7 @@ class People extends CI_Controller {
     $dh = new Data_handler();
     $dh->save($people);
     
+    $this->session->set_flashdata('message', 'Records Saved.');
     redirect(base_url('people'));
   }
   

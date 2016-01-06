@@ -46,3 +46,11 @@
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
+    
+    <?php if ($this->session->flashdata('message') != '') : ?>      
+    <div class="container">
+      <div class="alert alert-success" role="alert">
+        <?php echo $this->session->flashdata('message'); ?>
+      </div>
+    </div>
+    <?php endif; ?>
