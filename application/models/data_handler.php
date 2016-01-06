@@ -1,7 +1,8 @@
 <?php
 
 /**
- * Handles saving and loading data from file
+ * Handles loading data from file into an array of hashes
+ * and saving an array of hashes to file.
  *
  * @author Jim
  */
@@ -21,10 +22,10 @@ class Data_handler {
     $this->path = $path;
   }
   
-/**
- * Loads data from file into an array of hashes each with elements firstname and surname
- * @return array
- */
+  /**
+   * Loads data from file into an array of hashes each with elements firstname and surname
+   * @return array
+   */
   public function load() {
     $lines = file($this->path);
     $people = array();

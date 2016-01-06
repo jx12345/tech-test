@@ -17,7 +17,6 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     
-    
     <script src="<?php echo base_url('assets/js/jquery-1.11.3.min.js'); ?>"></script>
     <script src="<?php echo base_url('assets/js/underscore-min.js'); ?>"></script>
     <script src="<?php echo base_url('assets/js/bootstrap.min.js'); ?>"></script>
