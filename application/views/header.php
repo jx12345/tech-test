@@ -39,8 +39,8 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li><a href="<?php echo base_url('/'); ?>">List People</a></li>
-            <li><a href="/tests">Run Tests</a></li>
+            <li><a href="<?php echo site_url('/people'); ?>">List People</a></li>
+            <li><a href="<?php echo site_url('/tests'); ?>">Run Tests</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->

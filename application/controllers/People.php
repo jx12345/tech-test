@@ -26,7 +26,7 @@ class People extends CI_Controller {
     $dh = new Data_handler();
     $dh->save($people);
     
-    redirect(base_url('people?save=true'));
+    redirect('people?save=true');
   }
   
 }

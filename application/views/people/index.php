@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col-sm-12">
       
-      <form action="<?php echo base_url('/people/save'); ?>" method="post">
+      <form action="<?php echo site_url('/people/save'); ?>" method="post">
         <table id="table-people" class="table table-bordered table-striped table-condensed">
           <tr>
             <th>First name</th>
