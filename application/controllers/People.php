@@ -9,7 +9,11 @@ class People extends CI_Controller {
     $dh = new Data_handler();
     $data['people'] = $dh->load();
     
-		$this->load->view('header');
+    if ($this->input->get('save') == 'true') {
+      $data['message'] = 'Records Saved';
+    }
+    
+		$this->load->view('header', $data);
 		$this->load->view('people/index', $data);
     $this->load->view('footer');
 	}
@@ -22,8 +26,7 @@ class People extends CI_Controller {
     $dh = new Data_handler();
     $dh->save($people);
     
-    $this->session->set_flashdata('message', 'Records Saved.');
-    redirect(base_url('people'));
+    redirect(base_url('people?save=true'));
   }
   
 }
