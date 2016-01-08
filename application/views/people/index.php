@@ -1,7 +1,8 @@
 <div class="container">
   <div class="row">
     <div class="col-sm-12">
-      
+      <h1>List people</h1>
+      <p>Please use Add Person button to add a new person to the list. Use the red cross to delete a person from the list. Click Save to save any additions or deletions.</p>
       <form action="<?php echo site_url('/people/save'); ?>" method="post">
         <table id="table-people" class="table table-bordered table-striped table-condensed">
           <tr>
