@@ -50,7 +50,7 @@ to
 
 `$config['index_page'] = '';`
 
-Data is saved to the file `/data/data.csv` this must be writable to allow the system to write data to it.
+Data is saved to the file `/data/data.csv` this must have write permsissions set to allow the system to write data to it.
 
 A full working copy of the system is available at [http://www.jmware.co.uk/sky](http://www.jmware.co.uk/sky)
 
