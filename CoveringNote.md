@@ -50,6 +50,8 @@ to
 
 `$config['index_page'] = '';`
 
+Data is saved to the file `/data/data.csv` this must be writable to allow the system to write data to it.
+
 A full working copy of the system is available at [http://www.jmware.co.uk/sky](http://www.jmware.co.uk/sky)
 
 A git repo is available at [https://github.com/jx12345/techtest](https://github.com/jx12345/techtest)
