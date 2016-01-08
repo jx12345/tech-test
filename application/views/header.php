@@ -47,7 +47,7 @@
     </nav>
     
     <?php if (isset($message)) : ?>      
-    <div class="container">
+    <div class="container alert-container">
       <div class="alert alert-success" role="alert">
         <?php echo $message; ?>
       </div>

@@ -44,6 +44,7 @@
     $(document).on("click", ".btn-delete", function() {
       if (confirm("Are you sure you wish to delete this person?")) {
        this.closest("tr").remove();
+       $(".alert-container").remove();
       }
     });
     
